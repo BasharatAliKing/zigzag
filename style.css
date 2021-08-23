@@ -1,0 +1,268 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    display: flex;
+    margin-top: 30px;
+  
+}
+#header .left{
+    position: absolute;
+    left: 70px;
+}
+#header .left img{
+    width: 130px;
+}
+#header .right{
+    width: 80px;
+    position: absolute;
+   right: 250px;
+   
+}
+#header .right {
+    display: flex;
+}
+#header  .right button{
+    padding: 8px 20px;
+    background-color: white;
+    border-radius: 12px;
+    margin: 0px 10px;
+    border: 1px solid orange;
+    font-size: 18px;
+    color: orange;
+    
+}
+#header  .right button:hover{
+    background-color: rgb(248, 243, 232);
+    color: rgb(241, 199, 136);
+}
+#header .right .btn{
+    padding: 8px 30px;
+    color: white;
+    background-color: orange;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#header .right .btn:hover{
+    color: rgb(250, 227, 227);
+    background-color: rgb(248, 187, 74);
+}
+
+/* zig zag section */
+#zigzag{
+    display:flex;
+    margin-top: 150px;
+    padding: 10px 150px;
+}
+#zigzag .left{
+    width: 61%;
+    
+}
+#zigzag .left h1{
+    margin-top: 60px;
+   font-size: 50px;
+   margin-bottom: 30px;
+   color: orange;
+   font-family: 'Nunito Sans', sans-serif;
+}
+#zigzag .left p{
+    margin-top: 15px;
+   font-size: 16px;
+   padding-right: 60px;
+   font-family: 'Nunito Sans', sans-serif;
+   
+}
+#zigzag .left button{
+    margin-top: 40px;
+    padding: 15px 40px;
+    background-color:rgb(230, 175, 75);
+    border:  2px solid orange;
+    border-radius: 12px;
+    font-size: 18px;
+    color: black;  
+    font-weight: bold; 
+    font-family: 'Nunito Sans', sans-serif;
+}
+#zigzag .left button:hover{
+    background-color: orange;
+}
+#zigzag .right img{
+    width: 370px;
+}
+
+/* connection section start here */
+#connection{
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-gap: 5rem;
+    margin-top: 70px;
+    padding: 10px 150px;
+}
+
+#connection .text{
+    margin-top: 40px;
+}
+#connection .text h1{
+   font-size: 35px;
+   font-family: 'Nunito Sans', sans-serif;
+}
+#connection .text p{
+    margin-top: 30px;
+   font-size: 17px;
+   font-family: 'Nunito Sans', sans-serif;
+}
+#connection .text .pics{
+    display: flex;
+    margin-top: 60px;
+    
+}
+#connection .text .pics img{
+   width: 60px;
+    
+}
+#connection .text .pics h1{
+    font-size: 20px;
+ text-align: center;
+ justify-content: center;
+ color: orange;
+ font-family: 'Nunito Sans', sans-serif;
+}
+#connection .text .pics .a {
+    background-color:white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+#connection .text .pics .b {
+    background-color:white;
+    padding: 20px 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+#connection .text .pics .c {
+    background-color:white;
+    padding: 20px 40px;
+  border-radius: 10px;
+}
+#connection .img{
+    margin-top: 250px;
+    margin-left: 100px;
+}
+#connection .img img{
+    width: 150px;
+}
+#connection::before{
+    content: " ";
+    position: absolute;
+    background: rgb(255, 246, 246);
+    left: 0px;
+    top: 700px;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+/* section Esusu  */
+#esuse{
+    display: flex;
+    margin-top: 15px;
+}
+#esuse .img img{
+    width: 660px;
+    height: 500px;
+}
+#esuse .text{
+    margin-top: 120px;
+    margin-left: 50px;
+}
+#esuse .text h1{
+   font-size: 35px;
+   color: orange;
+   font-family: 'Nunito Sans', sans-serif;
+}
+#esuse .text p{
+   margin-top: 40px;
+  padding-right: 100px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* section download start here */
+#download{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 4fr 3fr 1fr;
+}
+#download .img{
+    padding-left: 120px;
+}
+#download .text{
+    margin-top: 50px;
+}
+#download .text h1{
+    font-size: 33px;
+    color: orange;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#download .text p{
+   margin-top: 30px;
+   font-family: 'Nunito Sans', sans-serif;
+}
+#download .text .im{
+  background-color: black;
+  padding: 20px 0px;
+  border-radius: 15px;
+ text-align: center;
+ justify-content: center;
+ margin-top: 30px;
+ margin-right: 100px;
+
+}
+#download .image{
+    margin-top: 280px;
+}
+
+/* foot section start here */
+#foot{
+    margin-top: 80px;
+    padding: 30px 150px;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#foot .img {
+   margin-left: 50px;
+}
+#foot .text{
+    margin-left: 40px;
+}
+#foot .text ul{
+    display: flex;
+}
+#foot .text ul li{
+    margin-top: 30px;
+    text-decoration: none;
+    display: flex;
+    padding: 4px  15px;
+}
+#foot .text ul li:hover{
+   text-decoration: underline;
+
+}
+#foot::before{
+    content: " ";
+    position: absolute;
+    background: url('./m.jpg.png')no-repeat center center/cover;
+    width: 100%;
+    height: 30%;
+    left: 0px;
+    top: 2500px;
+    z-index: -1;
+    opacity: 0.9;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    margin-top: 55px;
+    color: blue;
+    font-family: 'Nunito Sans', sans-serif;
+}

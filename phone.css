@@ -1,0 +1,193 @@
+#header{
+    margin-top: 60px;
+    
+}
+#header .left{
+    left: 10px;
+}
+#header .right{
+    right: 110px;
+}
+#header  .right button{
+    border-radius: 10px;
+    padding: 5px 12px;
+    font-size: 10px;
+}
+
+#zigzag{
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 50px;
+}
+#zigzag .left{
+    width: 100%;
+}
+#zigzag .left h1{
+   
+   font-size: 40px;
+   text-align: center;
+   justify-content: center;
+   
+   
+}
+#zigzag .left p{
+    margin-top: 20px;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    padding-right: 0px;
+}
+#zigzag .left button{
+  margin-left: 40px;
+}
+
+#zigzag .right{
+    display: none;
+}
+#connection{
+    display: inline-block;
+    padding: 10px 10px;
+}
+#connection .pic{
+    margin-left: 30px;
+}
+#connection .text h1{
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 20px;
+ }
+ #connection .text p{
+    text-align: center;
+    justify-content: center;
+}
+#connection .text .pics{
+    display: inline-block;
+   margin-left: 50px;
+}
+#connection .text .pics img{
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+     
+ }
+#connection .text .pics .a {
+  padding: 30px 60px;
+   background-color: white;
+  margin-bottom: 20px;
+}
+#connection .text .pics .b {
+  padding: 30px 60px;
+   background-color: white;
+  margin-bottom: 20px;
+}
+#connection .text .pics .c {
+  padding: 30px 60px;
+   background-color: white;
+  margin-bottom: 20px;
+}
+#connection .img{
+    display: none;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+#connection::before{
+    top: 0px;
+    height: 600%;
+}
+
+
+#esuse{
+    display: inline-block;
+    padding: 10px 0px;
+}
+#esuse .img img{
+ width: 360px;
+    height: 300px;
+}
+#esuse .text{
+    margin-top: 120px;
+    margin-left: 0px;
+}
+#esuse .text h1{
+    
+   text-align: center;
+   justify-content: center;
+ }
+ #esuse .text p{
+    text-align: center;
+   justify-content: center;
+   padding: 0px 10px;
+ }
+
+#download{
+    display: inline-block;
+    padding: 10px 10px;
+}
+#download .img{
+    padding-left: 0px;
+}
+#download .img img{
+   width: 400px;
+  
+}
+#download .text {
+    width: 90%;
+}
+#download .text h1{
+    font-size: 33px;
+   text-align: center;
+   justify-content: center;
+}
+#download .text p{
+    padding:  0px 0px;
+   margin-top: 30px;
+   width: 90%;
+   text-align: center;
+   justify-content: center;
+}
+#download .text .im img{
+    width: 200px;
+  
+  }
+#download .text .im{
+   padding: 10px 0px;
+   margin-right: 0px;
+   margin: 0px 40px;
+   margin-top: 20px;
+  
+   
+}
+#download .image{
+    display: none;
+}
+#foot{
+    padding: 30px 0px;
+    display: inline-block;
+  }
+#foot .text ul{
+    display: inline-block;
+ }
+#foot .img {
+  margin-left: 100px;
+   text-align: center;
+   justify-content: center;
+}
+#foot .text{
+    margin-left: 0px;
+}
+
+#foot .text ul li{
+    margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+}
+#foot::before{
+   top: 3840px;
+    height: 55%;
+   
+}
+footer{
+    font-size: 15px;
+    margin-top: 30px;
+}
